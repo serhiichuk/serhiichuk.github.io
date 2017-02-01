@@ -1,5 +1,8 @@
 $(document).ready(function() {
-
+	$(".jQuery_ID_1").addClass("value-1");	
+	$(".jQuery_ID_2").addClass("value-2");
+	$(".jQuery_ID_3").addClass("value-3");
+	$(".jQuery_ID_4").addClass("value-4");
 
 	$('.portfolio-item').magnificPopup({
 		type: 'image',
