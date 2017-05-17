@@ -700,7 +700,9 @@ h6 {
     padding-left: 0; }
     @media (max-width: 995px) {
       .going_grid > ul > li .oval_icon {
-        margin-left: 15%; } }
+      margin-left: 15%;
+      margin-bottom: 5%;
+      display: block;} }
 
 .oval_icon {
   background-color: #009688;
