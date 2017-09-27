@@ -278,9 +278,12 @@
                                             <input type="hidden" name="form_subject" value="Form Subject">
                                             <!-- END Hidden Required Fields -->
 
-											<input type="text" class="rfield" id="user_name" placeholder="Name" /><br/>
-											<input type="email" name="email" autocomplete="on" class="rfield" id="user_email" placeholder="Email"/><br/>
-											<input type="text" class="rfield" id="user_message" value="Message..." onclick="this.value='';" onblur="this.value=!this.value?'Message...':this.value;"><br/>
+											<input type="text" class="rfield" name="Name" id="user_name"
+                                                   placeholder="Name" /><br/>
+											<input type="email" name="email" name="E-mail" autocomplete="on" class="rfield"
+                                                   id="user_email" placeholder="Email"/><br/>
+											<input type="text" class="rfield" name="Message" id="user_message"
+                                                   value="Message..." onclick="this.value='';" onblur="this.value=!this.value?'Message...':this.value;"><br/>
 											<input type="submit" class="btn_submit disabled" id="button_style" value="Send Message" />
 										</form>
 									</div>
