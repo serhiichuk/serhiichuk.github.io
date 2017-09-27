@@ -28,7 +28,7 @@ $(document).ready(function() {
 
     //E-mail Ajax Send
     $("form").submit(function() { //Change
-        console.log('submit', $(this));
+        console.log(this, $(this));
         var th = $(this);
         $.ajax({
             type: "POST",
