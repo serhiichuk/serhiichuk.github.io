@@ -28,11 +28,12 @@ $(document).ready(function() {
 
     //E-mail Ajax Send
     $("form").submit(function() { //Change
-        console.log(this, $(this));
+
         var th = $(this);
+        console.log(th.serialize());
         $.ajax({
             type: "POST",
-            url: "js/mail.php", //Change
+            url: "./js/mail.php", //Change
             data: th.serialize()
         }).done(function() {
             alert("Thank you!");
