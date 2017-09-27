@@ -86,7 +86,21 @@ $(document).ready(function() {
 		        return false
 		      } else {
 		        // Все хорошо, все заполнено, отправляем форму
-		        form.submit();
+		        form.submit(function () {
+                    var th = $(this);
+                    $.ajax({
+                        type: "POST",
+                        url: "js/mail.php", //Change
+                        data: th.serialize()
+                    }).done(function() {
+                        alert("Thank you!");
+                        setTimeout(function() {
+                            // Done Functions
+                            th.trigger("reset");
+                        }, 1000);
+                    });
+                    return false;
+                });
 		      }
 		    });
 		  });
