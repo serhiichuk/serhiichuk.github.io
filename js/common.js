@@ -32,7 +32,7 @@ $(document).ready(function() {
         var th = $(this);
         console.log(th.serialize());
         $.ajax({
-            type: "POST",
+            type: "GET",
             url: "./js/mail.php", //Change
             data: th.serialize()
         }).done(function() {
