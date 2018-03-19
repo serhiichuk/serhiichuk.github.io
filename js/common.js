@@ -1,8 +1,8 @@
 $(document).ready(function() {
-	$(".jQuery_ID_1").css('width', '80%');
-	$(".jQuery_ID_2").css('width', '45%');
-	$(".jQuery_ID_3").css('width', '20%');
-	$(".jQuery_ID_4").css('width', '10%');
+	$(".jQuery_ID_1").css('width', '90%');
+	$(".jQuery_ID_2").css('width', '75%');
+	$(".jQuery_ID_3").css('width', '30%');
+	$(".jQuery_ID_4").css('width', '60%');
 
 	$('.portfolio-item').magnificPopup({
 		type: 'image',
@@ -44,4 +44,4 @@ $(document).ready(function() {
         });
         return false;
     });
-})
+});

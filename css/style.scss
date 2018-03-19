@@ -232,6 +232,9 @@ h6 {
 .section {
   margin-top: 15px;
   font-size: 13px;
+
+  height: 85vh;
+  min-height: 700px;
 }
 
 .section-about_me {
@@ -926,10 +929,7 @@ h6 {
   text-align: center;
   padding-top: 15px;
   z-index: 2;
-  -webkit-transition: background-color 1s, -webkit-transform 1s;
-  transition: background-color 1s, -webkit-transform 1s;
   transition: transform 1s, background-color 1s;
-  transition: transform 1s, background-color 1s, -webkit-transform 1s;
   > p {
     color: #fafafa;
   }
